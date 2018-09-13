@@ -1,22 +1,25 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by Brian Pfaff*
 
-## In The Report
-
-Include your responses to the bold questions on your own fork of [this lab report template](https://github.com/FAR-Lab/IDD-Fa18-Lab2). Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
-
-For this lab, we will be experimenting with a variety of sensors, sending the data to the Arduino serial monitor, writing data to the EEPROM of the Arduino, and then playing the data back.
+## The Report
 
 ## Part A.  Writing to the Serial Monitor
  
 **a. Based on the readings from the serial monitor, what is the range of the analog values being read?**
  
+ The range is 0 to 1023.
+ 
 **b. How many bits of resolution does the analog to digital converter (ADC) on the Arduino have?**
+
+10 bits of resolution.
 
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
+
+We could connect two of the 225 ohm resistors in series to the red pin in order to give it a higher resistance than the blue and green pins where we would only connect one 225 ohm resistor.
+
 
 ## Part C. Voltage Varying Sensors 
  
@@ -25,6 +28,8 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 **a. What voltage values do you see from your force sensor?**
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+
+The relationship is not linear, it is more of a log function with a very fast increase in voltage with minimal force applied however harder the you push, the less the gain in voltage is. 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
