@@ -33,6 +33,28 @@ The relationship is not linear, it is more of a log function with a very fast in
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
+Yes, I put if statements in the loop with each of them corresponding to a different color in the range of the sensor. 
+``` void loop()
+{
+  a_read = analogRead(A0);
+  if (a_read <100){
+  setColor(255, 0, 0);
+  }
+  if (a_read> 100 && a_read<250) {
+  setColor(0, 255, 0);  // green
+  }
+  if (a_read>250 && a_read<500) {
+  setColor(0, 0, 255);  // 
+  }
+  if (a_read> 500 && a_read<900) {
+  setColor(80, 0, 80);  // 
+  }
+  if (a_read> 900) {
+  setColor(0, 255, 255);  // aqua
+  }
+}
+```
+
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
