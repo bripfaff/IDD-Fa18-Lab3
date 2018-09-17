@@ -61,15 +61,21 @@ void loop()
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
 Force Sensor: 10k worked
+
 Flex: 10k worked
+
 Photo Cell: 10k worked for a reasonable range however I was not able to get the full range with it 
+
 Softpot: 
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
 Force Sensor: log
+
 Flex: log
+
 photo cell: linear
+
 softpot: 
 
 ### 2. Accelerometer
