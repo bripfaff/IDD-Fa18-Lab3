@@ -27,6 +27,8 @@ We could connect two of the 225 ohm resistors in series to the red pin in order 
 
 **a. What voltage values do you see from your force sensor?**
 
+The Force sensore gave the full range of voltages, 0-1023 bits so 0-5V
+
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
 
 The relationship is not linear, it is more of a log function with a very fast increase in voltage with minimal force applied however harder the you push, the less the gain in voltage is. 
@@ -34,7 +36,8 @@ The relationship is not linear, it is more of a log function with a very fast in
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
 Yes, I put if statements in the loop with each of them corresponding to a different color in the range of the sensor. 
-``` void loop()
+``` 
+void loop()
 {
   a_read = analogRead(A0);
   if (a_read <100){
@@ -57,11 +60,21 @@ Yes, I put if statements in the loop with each of them corresponding to a differ
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
 
+Force Sensor: 10k worked
+Flex: 10k worked
+Photo Cell: 10k worked for a reasonable range however I was not able to get the full range with it 
+Softpot: 
+
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+
+Force Sensor: log
+Flex: log
+photo cell: linear
+softpot: 
 
 ### 2. Accelerometer
  
-**a. Include your accelerometer read-out code in your write-up.**
+
 
 ### 3. IR Proximity Sensor
 
