@@ -87,7 +87,8 @@ https://github.com/bripfaff/IDD-Fa18-Lab3/blob/master/Accel_Code.ino
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
 
 The proximity sensor follows an exponential read out as we approach it. As seen below on the graph as you get closer and closer it starts to quickly increase its read out of proximity. 
-
+ 
+[Graph of read out as a sheet of paper approaches the sensor](https://github.com/bripfaff/IDD-Fa18-Lab3/blob/master/lab3.PNG)
 
 
 **b. Upload your merged code to your lab report repository and link to it here.**
