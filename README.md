@@ -134,5 +134,5 @@ An Idea I had for this is we could assing parts of the 1024 bytes to each of the
 
 I tried to get my accelerator to get started however the code seemed to not transition between states. I wanted to record someone accelerating then printing out the highest acceleration on the LCD. 
 
-[code](.my_data_logger_code.ino)
+[code](./my_data_logger_code.ino)
 
