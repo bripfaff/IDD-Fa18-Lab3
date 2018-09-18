@@ -101,7 +101,11 @@ The proximity sensor follows an exponential read out as we approach it. As seen 
 
 **a. Does it matter what actions are assigned to which state? Why?**
 
+Yes, we need it to go in order from 2,1,0 as number 0 clears the data in the EEPROM, state 1 reads data from the EEPROM so having occur after state 0 is useless and finally state 2 saves data onto the EEPROM so for the code to work well, we need to transition from station 2 to state 1 finally to state 0 in that order.
+
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+
+The Code is all in setup functions, in order to run it once for each state and then be done. We don't want to be continuously runiing the clearing/reading/writing of the EEPROM so we put it inot the setup rather than the loop to make sure this occurs once. 
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
@@ -109,7 +113,11 @@ The proximity sensor follows an exponential read out as we approach it. As seen 
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
+
+
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+
+An Idea I had for this is we could assing parts of the 1024 bytes to each of the variables we want to print out so for location 1-20, we save the x values from the accellerometer, at prints 20-40 we stave the y values etc.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
