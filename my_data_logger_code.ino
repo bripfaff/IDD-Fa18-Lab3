@@ -92,6 +92,7 @@ byte value;
 
 void state1Setup() {
     x_accel= EEPROM.read(0);
+    lcd.clear();
     lcd.print("Best Acceleration:");
     lcd.setCursor(0,1);
     lcd.print(x_accel);
@@ -113,7 +114,10 @@ String textarray = "hello cornell tech!";
 int endAddr;
 
 void state2Setup() {
-      lis.read();
+}
+
+void state2Loop() {
+  lis.read();
       sensors_event_t event; 
       lis.getEvent(&event);   
       accel = event.acceleration.x;
@@ -121,10 +125,6 @@ void state2Setup() {
         high_accel = accel;
         EEPROM.write(0,high_accel);
       }
-}
-
-void state2Loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
 }
 
 void doState2() {
