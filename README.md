@@ -134,7 +134,9 @@ An Idea I had for this is we could assing parts of the 1024 bytes to each of the
  
 **a. Record and upload a short demo video of your logger in action.**
 
-I tried to get my accelerator to get started however the code seemed to not transition between states. I wanted to record someone accelerating then printing out the highest acceleration on the LCD. 
+I wanted to record someone accelerating then printing out the highest acceleration on the LCD. In the video I am moving the board. The way I would use it in real life is plugging in a battery and putting the board on someone.
+
+[video](https://youtu.be/eiiotAqv_Yk)
 
 [code](./my_data_logger_code.ino)
 
