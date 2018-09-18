@@ -131,3 +131,6 @@ An Idea I had for this is we could assing parts of the 1024 bytes to each of the
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+I tried for hours to get my accelerator to get started however the code seemed to not transition between states. I wanted to record someone accelerating then printing out the highest acceleration on the LCD. 
+
