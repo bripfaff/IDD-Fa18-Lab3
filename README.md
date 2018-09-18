@@ -103,7 +103,7 @@ The proximity sensor follows an exponential read out as we approach it. As seen 
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
 
-1024 bytes
+1024 byte sized samples
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
 
