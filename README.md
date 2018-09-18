@@ -121,6 +121,8 @@ An Idea I had for this is we could assing parts of the 1024 bytes to each of the
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
+[Sensor Analog Code](https://github.com/bripfaff/IDD-Fa18-Lab3/blob/master/EEPROM_code.ino)
+
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
