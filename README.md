@@ -128,7 +128,7 @@ An Idea I had for this is we could assing parts of the 1024 bytes to each of the
  
 **a. Insert here a copy of your final state diagram.**
 
-![a relative link](https://github.com/bripfaff/IDD-Fa18-Lab3/blob/master/9CB5BF0A-E41D-4F84-A4B9-C67C8C350F4C.jpeg)
+![a relative link](https://github.com/bripfaff/IDD-Fa18-Lab3/blob/master/5D72F25E-25AB-414E-B1FB-290AE59A09AD.jpeg)
 
 ### 3. Create your data logger!
  
