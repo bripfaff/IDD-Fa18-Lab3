@@ -117,7 +117,7 @@ The Code is all in setup functions, in order to run it once for each state and t
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
-An Idea I had for this is we could assing parts of the 1024 bytes to each of the variables we want to print out so for location 1-20, we save the x values from the accellerometer, at prints 20-40 we stave the y values etc.
+An Idea I had for this is we could assing parts of the 1024 bytes to each of the variables we want to print out so for location 1-20, we save the x values from the accellerometer, at prints 20-40 we save the y values etc.
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
 
