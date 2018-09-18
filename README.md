@@ -93,6 +93,8 @@ The proximity sensor follows an exponential read out as we approach it. As seen 
 
 **b. Upload your merged code to your lab report repository and link to it here.**
 
+[Reading Both Sensors Code](https://github.com/bripfaff/IDD-Fa18-Lab3/blob/master/dual_reader.ino)
+
 ## Part D. Logging values to the EEPROM and reading them back
  
 ### 1. Reading and writing values to the Arduino EEPROM
