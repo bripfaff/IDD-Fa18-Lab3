@@ -18,7 +18,7 @@
 
 **How might you use this with only the parts in your kit? Show us your solution.**
 
-We could connect two of the 225 ohm resistors in series to the red pin in order to give it a higher resistance than the blue and green pins where we would only connect one 225 ohm resistor.
+We could connect two of the 225 ohm resistors in series to the red pin in order to give it a higher resistance than the blue and green pins where we would only connect one 225 ohm resistor. 
 
 
 ## Part C. Voltage Varying Sensors 
@@ -66,7 +66,7 @@ Flex: 10k worked
 
 Photo Cell: 10k worked for a reasonable range however I was not able to get the full range with it 
 
-Softpot: 
+Softpot: Finally the softpot was also viable for my code witht he 10k resistor
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
@@ -76,7 +76,7 @@ Flex: log
 
 photo cell: linear
 
-softpot: 
+softpot: linear
 
 ### 2. Accelerometer
  
