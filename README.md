@@ -19,6 +19,7 @@
 **How might you use this with only the parts in your kit? Show us your solution.**
 
 We could connect two of the 225 ohm resistors in series to the red pin in order to give it a higher resistance than the blue and green pins where we would only connect one 225 ohm resistor. 
+[Working Example](https://youtu.be/vhsC76_BS78)
 
 
 ## Part C. Voltage Varying Sensors 
