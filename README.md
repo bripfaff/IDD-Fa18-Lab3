@@ -128,6 +128,8 @@ An Idea I had for this is we could assing parts of the 1024 bytes to each of the
  
 **a. Insert here a copy of your final state diagram.**
 
+![a relative link](./lab3.PNG)
+
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
